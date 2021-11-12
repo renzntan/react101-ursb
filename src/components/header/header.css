@@ -1,0 +1,27 @@
+.header {
+    height: 80px;
+    width: 100%;
+    display: flex;
+
+}
+
+.logo {
+    font-weight: bold;
+    padding: 20px;
+    flex-direction: 1;
+    flex: 1;
+    background: salmon;
+}
+
+.account,
+.menu {
+    flex: 1;
+    align-items: center;
+    display: flex;
+    background: sandybrown;
+}
+
+.account {
+    flex: initial;
+    background: skyblue;
+}
